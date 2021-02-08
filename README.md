@@ -1,4 +1,4 @@
-Setup instruction (frtontend)
+Setup instruction (frontend)
 
 1. npm install
 2. npm audit 
