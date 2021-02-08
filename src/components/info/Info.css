@@ -1,0 +1,46 @@
+.info_container
+{
+    height:fit-content;
+    width: 300px;
+   
+    margin-left: 5rem;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    padding-bottom: 2rem;
+    margin-top: 5rem;
+
+}
+
+.info_name
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: xx-large;
+    color: aliceblue;
+    background-color: #0255af;
+    font-weight: bold;
+}
+
+.info_detail
+{
+    display: flex;
+    
+    height: 30px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    justify-content: left;
+    
+}
+
+.info_detail_title
+{
+    flex: 1;
+    font-weight: bold;
+}
+
+.info_detail_value
+{
+    float: 2;
+    font-weight: normal ;
+
+}

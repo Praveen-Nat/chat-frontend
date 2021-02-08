@@ -1,0 +1,50 @@
+.modal_form
+{
+    display: flex;
+    flex-direction: column;
+    margin: 3rem;
+}
+
+.modal_form_ele
+{
+    margin-bottom: 1rem !important;
+}
+
+.show_val
+{
+    display: block;
+    color: red  ;
+}
+
+.hide_val
+{
+    display: none;
+}
+
+.validation_ele
+{
+    margin-bottom: 1rem;
+}
+
+.smallScrnContent
+{
+    display: none;
+    height: 100vh;
+    width: 100%;
+    
+}
+
+
+@media (max-width: 800px) {
+
+.main_container
+{
+    
+   
+    display: none;
+}
+
+.smallScrnContent{ display: block;}
+
+ 
+    }
